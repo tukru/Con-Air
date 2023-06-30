@@ -11,6 +11,27 @@ A Bash script for automating wireless network attacks using tools like Airmon-ng
 
 Con-Air is a Bash script for educational purposes, designed to automate the process of wireless network monitoring and analysis using tools like Airmon-ng, Airodump-ng, Aireplay-ng, and Aircrack-ng.
 
+## Dependencies
+
+The following tools are required to run the script:
+
+- `aircrack-ng`
+- `airmon-ng`
+- `airodump-ng`
+- `aireplay-ng`
+- `wireshark`
+- `xterm`
+- `tput`
+
+These can be installed on Debian-based systems using the following command:
+
+```bash
+sudo apt-get install aircrack-ng wireshark xterm
+
+Please consult the documentation for these tools for more information on how to install them on other types of systems.
+
+Note: You should replace the `apt-get install` command with the appropriate command for installing these packages on the systems your users are likely to be using. Also, the `tput` command is part of the `ncurses` package, which is installed by default on most Unix-like systems, so it's not listed in the install command.
+
 ## Features
 
 The main menu of Con-Air presents you with the following options:
