@@ -9,7 +9,7 @@ tput cup 3 15
 
 # Set a foreground colour using ANSI escape
 tput setaf 3
-echo "Wireless msTR by BINARY"
+echo "Wireless msTR by TUKRU"
 tput sgr0
 
 tput cup 5 17
